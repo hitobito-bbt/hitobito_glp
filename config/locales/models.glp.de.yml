@@ -21,6 +21,14 @@ de:
         notify_on_join: Eintrittsbenachrichtung
         genders:
           _nil: unbekannt/anderes
+    errors:
+      models:
+        group:
+          attributes:
+            zip_codes:
+              not_uniq:
+                one: '"%{shared}" ist bereits auf der Gruppe "%{group}" vergeben'
+                other: '"%{shared}" sind bereits auf der Gruppe "%{group}" vergeben'
     models:
       group/root:
         one: Schweiz

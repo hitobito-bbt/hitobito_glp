@@ -47,7 +47,7 @@ bern:
   email: kanton@bern.net
   address: Ophovener Str. 79a
   zip_code: 3012
-  zip_codes: "9171, 3012"
+  zip_codes: "9171,3012"
   layer_group_id: <%= ActiveRecord::FixtureSet.identify(:bern) %>
 
 bern_zugeordnete:
